@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Text selection.unity
+    guid: 8e84a007851e8254aa535eb76fe233a2
+  - enabled: 1
+    path: Assets/Scenes/BeginScherm.unity
+    guid: 898cc3def89d84048833a86c9fbc501f
   m_configObjects: {}
