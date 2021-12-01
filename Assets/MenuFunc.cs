@@ -15,4 +15,10 @@ public class MenuFunc : MonoBehaviour
     {
         
     }
+
+
+    public void CloseBook()
+    {
+
+    }
 }
