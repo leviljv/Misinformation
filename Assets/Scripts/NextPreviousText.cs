@@ -8,17 +8,9 @@ public class NextPreviousText : MonoBehaviour
 
     private void Start()
     {
-        if (PlayerStats.Node1 == 2 || PlayerStats.Node1 == 3 )
-        {
-            if (PlayerStats.Node2 == 2)
-            {
-                level = 1;
-            }
-        }
-        else
-        {
-            level = 2;
-        }
+        PlayerStats.Node1 = 1;
+        PlayerStats.Node2 = 2;
+        PlayerStats.Node3 = 1;
     }
 
     void Update()
@@ -28,7 +20,47 @@ public class NextPreviousText : MonoBehaviour
 
     public void nextText()
     {
-        level++;
+        if (level == 1)
+        {
+            if (PlayerStats.Node1 == 1)
+            {
+                level = 2;
+            }
+            else if (PlayerStats.Node1 == 2)
+            {
+                level = 3;
+            }
+        }
+        else if (level == 2 || level == 3)
+        {
+            if (PlayerStats.Node2 == 1)
+            {
+                level = 4;
+            }
+            else if (PlayerStats.Node2 == 2)
+            {
+                level = 5;
+            }
+        }
+        else if (level == 4 || level == 5)
+        {
+            if (PlayerStats.Node3 == 1)
+            {
+                level = 6;
+            }
+            else if (PlayerStats.Node3 == 2)
+            {
+                level = 7;
+            }
+        }
+        else if (level == 6 || level == 7)
+        {
+            level = 8;
+        }
+        else
+        {
+            level++;
+        }
     }
     public void previousText()
     {
