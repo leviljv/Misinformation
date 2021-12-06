@@ -8,9 +8,10 @@ public class NextPreviousText : MonoBehaviour
 
     private void Start()
     {
-        PlayerStats.Node1 = 1;
-        PlayerStats.Node2 = 2;
-        PlayerStats.Node3 = 1;
+        //to test the reading of PlayerStats
+        //PlayerStats.Node1 = 1;
+        //PlayerStats.Node2 = 2;
+        //PlayerStats.Node3 = 1;
     }
 
     void Update()
