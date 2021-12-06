@@ -27,5 +27,6 @@ public class DialogManager : MonoBehaviour
     public void SetCurrentDialog(int setDialogTo)
     {
         currentDialog = setDialogTo;
+
     }
 }
