@@ -31,7 +31,6 @@ Transform:
   - {fileID: 3180449307771525104}
   - {fileID: 8548418205326977003}
   - {fileID: 3066078395483597488}
-  - {fileID: 5262097071137129607}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -57,6 +56,10 @@ PrefabInstance:
     - target: {fileID: 7041327755680966786, guid: 3a93bd818619aa94fb867d182f8ec371, type: 3}
       propertyPath: m_Name
       value: PlayerChoiceNode
+      objectReference: {fileID: 0}
+    - target: {fileID: 7041327755680966786, guid: 3a93bd818619aa94fb867d182f8ec371, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7269491709877765538, guid: 3a93bd818619aa94fb867d182f8ec371, type: 3}
       propertyPath: refToDialogManager
@@ -164,13 +167,145 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 705190446773781553, guid: 65c520036f797e548aac24988275f1b4, type: 3}
+      propertyPath: m_text
+      value: 'Continue
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1017345544025854543, guid: 65c520036f797e548aac24988275f1b4, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1017345544025854543, guid: 65c520036f797e548aac24988275f1b4, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1155946209390885298, guid: 65c520036f797e548aac24988275f1b4, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1155946209390885298, guid: 65c520036f797e548aac24988275f1b4, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1628545134571692594, guid: 65c520036f797e548aac24988275f1b4, type: 3}
+      propertyPath: addToMaxInt
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1628545134571692594, guid: 65c520036f797e548aac24988275f1b4, type: 3}
       propertyPath: refToDialogManager
       value: 
       objectReference: {fileID: 2741246305467055494}
+    - target: {fileID: 1628545134571692594, guid: 65c520036f797e548aac24988275f1b4, type: 3}
+      propertyPath: targetIntWhenOnMin
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2294001663106550891, guid: 65c520036f797e548aac24988275f1b4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2741246305467055494}
+    - target: {fileID: 2294001663106550891, guid: 65c520036f797e548aac24988275f1b4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AddCurrentDialog
+      objectReference: {fileID: 0}
+    - target: {fileID: 2516303074008366404, guid: 65c520036f797e548aac24988275f1b4, type: 3}
+      propertyPath: m_Name
+      value: Greetings!
+      objectReference: {fileID: 0}
+    - target: {fileID: 2516303074008366404, guid: 65c520036f797e548aac24988275f1b4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2664298805862412587, guid: 65c520036f797e548aac24988275f1b4, type: 3}
+      propertyPath: m_text
+      value: "First, let me start with a little insight: You\u2019re tired of waking
+        up every morning knowing you\u2019re not living up to your full potential,
+        aren\u2019t you? Many people are in today\u2019s world, but this problem
+        has a solution!\n\nTake a careful look at what I am holding. What I am about
+        to show you will change your life: This is Mindness tea, the miracle infusion!"
+      objectReference: {fileID: 0}
     - target: {fileID: 3014288158812203241, guid: 65c520036f797e548aac24988275f1b4, type: 3}
       propertyPath: m_Name
       value: SingleNode (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4034985267768015539, guid: 65c520036f797e548aac24988275f1b4, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4034985267768015539, guid: 65c520036f797e548aac24988275f1b4, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5137134794904099609, guid: 65c520036f797e548aac24988275f1b4, type: 3}
+      propertyPath: refToDialogManager
+      value: 
+      objectReference: {fileID: 2741246305467055494}
+    - target: {fileID: 5708169164911975844, guid: 65c520036f797e548aac24988275f1b4, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5708169164911975844, guid: 65c520036f797e548aac24988275f1b4, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6008707227884609055, guid: 65c520036f797e548aac24988275f1b4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2741246305467055494}
+    - target: {fileID: 6008707227884609055, guid: 65c520036f797e548aac24988275f1b4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AddCurrentDialog
+      objectReference: {fileID: 0}
+    - target: {fileID: 6008707227884609055, guid: 65c520036f797e548aac24988275f1b4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6202697655131374991, guid: 65c520036f797e548aac24988275f1b4, type: 3}
+      propertyPath: m_text
+      value: 'What is your product?
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7595523207001968396, guid: 65c520036f797e548aac24988275f1b4, type: 3}
+      propertyPath: m_text
+      value: "I\u2019m Interested, go on.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7816840294165926852, guid: 65c520036f797e548aac24988275f1b4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2741246305467055494}
+    - target: {fileID: 7816840294165926852, guid: 65c520036f797e548aac24988275f1b4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AddCurrentDialog
+      objectReference: {fileID: 0}
+    - target: {fileID: 8072704487126401718, guid: 65c520036f797e548aac24988275f1b4, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8072704487126401718, guid: 65c520036f797e548aac24988275f1b4, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259130596912883662, guid: 65c520036f797e548aac24988275f1b4, type: 3}
+      propertyPath: m_text
+      value: "Greetings! My name is J. Conner, and I\u2019m a travelling salesman.
+        If you lend me a couple minutes of your time, I\u2019ll explain what my product
+        can do for you, and offer you a deal!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8652310719765672784, guid: 65c520036f797e548aac24988275f1b4, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8652310719765672784, guid: 65c520036f797e548aac24988275f1b4, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8834969107985827088, guid: 65c520036f797e548aac24988275f1b4, type: 3}
+      propertyPath: m_text
+      value: "Greetings! My name is J. Conner, and I\u2019m a travelling salesman.
+        If you lend me a couple minutes of your time, I\u2019ll explain what my product
+        can do for you, and offer you a deal!"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 65c520036f797e548aac24988275f1b4, type: 3}
@@ -322,69 +457,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 600c75881e4ce9840950429768e5ab6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1001 &5192579480417848925
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 7343534518751794150}
-    m_Modifications:
-    - target: {fileID: 74598490994985690, guid: 65c520036f797e548aac24988275f1b4, type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 74598490994985690, guid: 65c520036f797e548aac24988275f1b4, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 74598490994985690, guid: 65c520036f797e548aac24988275f1b4, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 74598490994985690, guid: 65c520036f797e548aac24988275f1b4, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 74598490994985690, guid: 65c520036f797e548aac24988275f1b4, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 74598490994985690, guid: 65c520036f797e548aac24988275f1b4, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 74598490994985690, guid: 65c520036f797e548aac24988275f1b4, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 74598490994985690, guid: 65c520036f797e548aac24988275f1b4, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 74598490994985690, guid: 65c520036f797e548aac24988275f1b4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 74598490994985690, guid: 65c520036f797e548aac24988275f1b4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 74598490994985690, guid: 65c520036f797e548aac24988275f1b4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1628545134571692594, guid: 65c520036f797e548aac24988275f1b4, type: 3}
-      propertyPath: refToDialogManager
-      value: 
-      objectReference: {fileID: 2741246305467055494}
-    - target: {fileID: 3014288158812203241, guid: 65c520036f797e548aac24988275f1b4, type: 3}
-      propertyPath: m_Name
-      value: SingleNode (2)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 65c520036f797e548aac24988275f1b4, type: 3}
---- !u!4 &5262097071137129607 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 74598490994985690, guid: 65c520036f797e548aac24988275f1b4, type: 3}
-  m_PrefabInstance: {fileID: 5192579480417848925}
-  m_PrefabAsset: {fileID: 0}
