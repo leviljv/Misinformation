@@ -32,13 +32,13 @@ public class DialogNode : MonoBehaviour
     void EnableThisDialog()
     {
         refToGameObject.SetActive(true);
-        Debug.Log("on");
+        //Debug.Log("on");
     }
 
     void DisableThisDialog()
     {
         refToGameObject.SetActive(false);
-        Debug.Log("off");
+        //Debug.Log("off");
 
     }
 }

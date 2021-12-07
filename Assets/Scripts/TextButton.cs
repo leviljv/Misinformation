@@ -9,10 +9,19 @@ public class TextButton : MonoBehaviour
     public UIManager uiManager;
     private Color textColor;
     private Color standardColor;
+    public bool rightColorBlue;
+    public bool rightColorGreen;
+    private bool pointGiven = false;
 
     private void Awake()
     {
         standardColor = GetComponent<Image>().color;
+    }
+
+    private void Update()
+    {
+        
+            Debug.Log(PlayerStats.Points + "goede herkenningen");
     }
 
     public void clickText()
@@ -23,6 +32,11 @@ public class TextButton : MonoBehaviour
             textColor.a = 0.36f;
             GetComponent<Image>().color = textColor;
             textColor = Color.blue;
+            if (rightColorBlue && !pointGiven)
+            {
+                PlayerStats.Points++;
+                pointGiven = true;
+            }
         }
         else if (uiManager.greenPressed == true && textColor != Color.green)
         {
@@ -30,6 +44,12 @@ public class TextButton : MonoBehaviour
             textColor.a = 0.36f;
             GetComponent<Image>().color = textColor;
             textColor = Color.green;
+
+            if (rightColorGreen && !pointGiven)
+            {
+                PlayerStats.Points++;
+                pointGiven = true;
+            }
         }
         else if (uiManager.yellowPressed == true && textColor != Color.yellow)
         {
