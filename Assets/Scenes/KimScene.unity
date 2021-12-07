@@ -3542,6 +3542,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uiManager: {fileID: 1717949015}
+  rightColorBlue: 0
+  rightColorGreen: 0
 --- !u!114 &244384403
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7168,6 +7170,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uiManager: {fileID: 1717949015}
+  rightColorBlue: 0
+  rightColorGreen: 0
 --- !u!114 &510115795
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7953,6 +7957,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uiManager: {fileID: 1717949015}
+  rightColorBlue: 0
+  rightColorGreen: 0
 --- !u!114 &554797294
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9411,6 +9417,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uiManager: {fileID: 1717949015}
+  rightColorBlue: 0
+  rightColorGreen: 0
 --- !u!114 &640087241
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9588,6 +9596,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uiManager: {fileID: 1717949015}
+  rightColorBlue: 0
+  rightColorGreen: 0
 --- !u!114 &650400085
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12425,6 +12435,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uiManager: {fileID: 1717949015}
+  rightColorBlue: 0
+  rightColorGreen: 0
 --- !u!114 &907328681
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12889,6 +12901,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uiManager: {fileID: 1717949015}
+  rightColorBlue: 0
+  rightColorGreen: 0
 --- !u!114 &920234380
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13968,6 +13982,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uiManager: {fileID: 1717949015}
+  rightColorBlue: 0
+  rightColorGreen: 0
 --- !u!114 &1025289254
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15272,6 +15288,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uiManager: {fileID: 1717949015}
+  rightColorBlue: 0
+  rightColorGreen: 0
 --- !u!114 &1094406526
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15604,6 +15622,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uiManager: {fileID: 1717949015}
+  rightColorBlue: 0
+  rightColorGreen: 0
 --- !u!114 &1103136007
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16746,6 +16766,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uiManager: {fileID: 1717949015}
+  rightColorBlue: 0
+  rightColorGreen: 0
 --- !u!114 &1168486479
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17252,6 +17274,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uiManager: {fileID: 1717949015}
+  rightColorBlue: 0
+  rightColorGreen: 0
 --- !u!114 &1187465888
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18329,6 +18353,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uiManager: {fileID: 1717949015}
+  rightColorBlue: 0
+  rightColorGreen: 0
 --- !u!114 &1277817454
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20884,6 +20910,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uiManager: {fileID: 1717949015}
+  rightColorBlue: 0
+  rightColorGreen: 0
 --- !u!114 &1446048424
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21163,6 +21191,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uiManager: {fileID: 1717949015}
+  rightColorBlue: 0
+  rightColorGreen: 0
 --- !u!114 &1472219031
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23851,6 +23881,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uiManager: {fileID: 1717949015}
+  rightColorBlue: 0
+  rightColorGreen: 0
 --- !u!1 &1666348887
 GameObject:
   m_ObjectHideFlags: 0
@@ -24307,6 +24339,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uiManager: {fileID: 1717949015}
+  rightColorBlue: 0
+  rightColorGreen: 0
 --- !u!1 &1699120790
 GameObject:
   m_ObjectHideFlags: 0
@@ -24523,6 +24557,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   level: 0
+  sceneManager: {fileID: 0}
 --- !u!114 &1717949019
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25187,6 +25222,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uiManager: {fileID: 1717949015}
+  rightColorBlue: 0
+  rightColorGreen: 0
 --- !u!114 &1737457316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28417,6 +28454,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uiManager: {fileID: 1717949015}
+  rightColorBlue: 0
+  rightColorGreen: 0
 --- !u!114 &1997599093
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30005,6 +30044,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uiManager: {fileID: 1717949015}
+  rightColorBlue: 0
+  rightColorGreen: 0
 --- !u!114 &2074786757
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30151,6 +30192,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uiManager: {fileID: 1717949015}
+  rightColorBlue: 0
+  rightColorGreen: 0
 --- !u!114 &2080275577
 MonoBehaviour:
   m_ObjectHideFlags: 0

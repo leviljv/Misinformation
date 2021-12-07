@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/BeginScherm.unity
     guid: 898cc3def89d84048833a86c9fbc501f
   - enabled: 1
+    path: Assets/Scenes/Intro.unity
+    guid: bda6bf10c6a6863489998a2594406aa6
+  - enabled: 1
     path: Assets/Scenes/KimScene.unity
     guid: 757d01b906b058e4ab700e0bcefb0785
   - enabled: 1
