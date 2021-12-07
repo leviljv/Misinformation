@@ -41,24 +41,24 @@ public class CutsceneController : MonoBehaviour
         {
             image.sprite = detectiveRegular;
             
-            text.text = "GRANDMA: There's a strange man at my door who is trying to sell me something.";
+            text.text = "<b>GRANDMA:</b> There's a strange man at my door who is trying to sell me something.";
         }
 
         if (convoIndex == 2)
         {
             image.sprite = detectiveWorried;
-            text.text = "YOU: What? Who is he, what is he selling? Is it legit?";
+            text.text = "<b>DETECTIVE BUZZY:</b> What? Who is he, what is he selling? Is it legit?";
         }
 
         if (convoIndex == 3)
         {
-            text.text = "GRANDMA: I don't know, sweetheart. Could you help me find out?";
+            text.text = "<b>GRANDMA:</b> I don't know, sweetheart. Could you help me find out?";
         }
 
         if (convoIndex == 4)
         {
             image.sprite = detectiveHappy;
-            text.text = "YOU: I'm on my way!";
+            text.text = "<b>DETECTIVE BUZZY:</b> I'm on my way!";
             
         }
 
@@ -72,7 +72,7 @@ public class CutsceneController : MonoBehaviour
 
     public void ContinueConvo()
     {
-        text.text = "GRANDMA: Hello, sweetheart.";
+        text.text = "<b>GRANDMA:</b> Hello, sweetheart.";
         foreach(GameObject button in nextButton)
         {
             button.SetActive(true);
