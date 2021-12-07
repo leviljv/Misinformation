@@ -3,25 +3,35 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 public class CutsceneController : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI text;
+
+    [SerializeField] Image image;
     [SerializeField] GameObject Detectivehappy;
     [SerializeField] GameObject Detectiveregular;
     [SerializeField] GameObject Detectiveworried;
+
+    [SerializeField] Sprite detectiveWorried;
+    [SerializeField] Sprite detectiveHappy;
+    [SerializeField] Sprite detectiveRegular;
 
     [SerializeField] GameObject Grandmahappy;
     [SerializeField] GameObject Grandmaregular;
     [SerializeField] GameObject Grandmaworried;
 
     [SerializeField] GameObject textBox;
-    [SerializeField] GameObject nextButton;
+    [SerializeField] GameObject[] nextButton;
 
     int convoIndex = 0;
     // Start is called before the first frame update
     void Start()
     {
-        nextButton.SetActive(false);
+        foreach (GameObject button in nextButton)
+        {
+            button.SetActive(false);
+        }
     }
 
     // Update is called once per frame
@@ -29,11 +39,14 @@ public class CutsceneController : MonoBehaviour
     {
         if(convoIndex == 1)
         {
+            image.sprite = detectiveRegular;
+            
             text.text = "GRANDMA: There's a strange man at my door who is trying to sell me something.";
         }
 
         if (convoIndex == 2)
         {
+            image.sprite = detectiveWorried;
             text.text = "YOU: What? Who is he, what is he selling? Is it legit?";
         }
 
@@ -44,12 +57,14 @@ public class CutsceneController : MonoBehaviour
 
         if (convoIndex == 4)
         {
+            image.sprite = detectiveHappy;
             text.text = "YOU: I'm on my way!";
-            //gotoscene
+            
         }
 
         if(convoIndex >= 4)
         {
+            StartCoroutine(GoToNextScene());
             convoIndex = 4;
             
         }
@@ -58,9 +73,17 @@ public class CutsceneController : MonoBehaviour
     public void ContinueConvo()
     {
         text.text = "GRANDMA: Hello, sweetheart.";
-        nextButton.SetActive(true);
+        foreach(GameObject button in nextButton)
+        {
+            button.SetActive(true);
+        }
     }
 
+    IEnumerator GoToNextScene()
+    {
+        yield return new WaitForSeconds(2f);
+        SceneManager.LoadScene("KimScene", LoadSceneMode.Additive);
+    }
     public void Next()
     {
         convoIndex++;
