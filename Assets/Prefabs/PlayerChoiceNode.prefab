@@ -525,6 +525,7 @@ MonoBehaviour:
   refToGameObject: {fileID: 746965624713946170}
   targetIntWhenOnMin: 0
   targetIntWhenOnMax: 0
+  addToMaxInt: 0
 --- !u!1 &2787339636040947481
 GameObject:
   m_ObjectHideFlags: 0
@@ -1356,6 +1357,7 @@ MonoBehaviour:
   refToGameObject: {fileID: 5686731658512818770}
   targetIntWhenOnMin: 0
   targetIntWhenOnMax: 0
+  addToMaxInt: 0
 --- !u!1 &5108058378247563789
 GameObject:
   m_ObjectHideFlags: 0
@@ -1404,6 +1406,7 @@ MonoBehaviour:
   refToGameObject: {fileID: 6613117540468094311}
   targetIntWhenOnMin: 0
   targetIntWhenOnMax: 0
+  addToMaxInt: 0
 --- !u!1 &5686731658512818770
 GameObject:
   m_ObjectHideFlags: 0
@@ -2541,6 +2544,7 @@ MonoBehaviour:
   refToGameObject: {fileID: 14254612319772648}
   targetIntWhenOnMin: 0
   targetIntWhenOnMax: 0
+  addToMaxInt: 3
 --- !u!1 &8748200062437580224
 GameObject:
   m_ObjectHideFlags: 0
