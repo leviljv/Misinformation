@@ -20,4 +20,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Prototype31-11.unity
     guid: 228c8c5f4887bb441bfa03676fb07648
+  - enabled: 1
+    path: Assets/Scenes/End.unity
+    guid: f20a7fb091f94e344bf9bfa1824b4515
+  - enabled: 1
+    path: Assets/Scenes/Ending 1.unity
+    guid: fca4891b02b226c45af98b104d1bd3c5
+  - enabled: 1
+    path: Assets/Scenes/Ending 2.unity
+    guid: ad3ead2c2dcabc94a9722fc54917b3e1
   m_configObjects: {}

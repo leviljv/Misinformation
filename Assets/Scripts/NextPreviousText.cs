@@ -5,6 +5,7 @@ using UnityEngine;
 public class NextPreviousText : MonoBehaviour
 {
     public int level;
+    public NextScene sceneManager;
 
     private void Start()
     {
@@ -57,6 +58,10 @@ public class NextPreviousText : MonoBehaviour
         else if (level == 6 || level == 7)
         {
             level = 8;
+        }
+        else if (level >= 10)
+        {
+            sceneManager.GoToNextScene();
         }
         else
         {
