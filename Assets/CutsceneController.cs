@@ -82,7 +82,7 @@ public class CutsceneController : MonoBehaviour
     IEnumerator GoToNextScene()
     {
         yield return new WaitForSeconds(2f);
-        SceneManager.LoadScene("KimScene", LoadSceneMode.Additive);
+        SceneManager.LoadScene("KimScene");
     }
     public void Next()
     {
